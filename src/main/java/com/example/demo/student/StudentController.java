@@ -7,7 +7,7 @@ import java.util.List;
 
 //API Layer - Contains all our resources
 @RestController
-@RequestMapping(path ="/student" )
+@RequestMapping(path ="student" )
 public class StudentController {
 
     private final StudentService studentService;
