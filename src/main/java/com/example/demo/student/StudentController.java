@@ -3,13 +3,11 @@ package com.example.demo.student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.time.LocalDate;
-import java.time.Month;
 import java.util.List;
 
 //API Layer - Contains all our resources
 @RestController
-@RequestMapping(path ="api/v1/student" )
+@RequestMapping(path ="/student" )
 public class StudentController {
 
     private final StudentService studentService;
